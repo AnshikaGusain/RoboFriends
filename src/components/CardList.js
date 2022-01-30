@@ -2,7 +2,9 @@ import React from 'react';
 import Card from './Card';
 
 const CardList =({Robots})=>{
-   
+    // if(true){
+    //     throw new Error("NOOOOOOO!!!!");
+    // }                     For checking ErrorBoundary Component
     return(
         <div className="tc">
             {
